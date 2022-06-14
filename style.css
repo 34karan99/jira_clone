@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(182, 181, 180);
+    /* background-image: url("background.jpg"); */
+}
+.tool-box{
+    background-color: rgb(83, 82, 82);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-content{
+    background-color: black;
+    border-color: white;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 18rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.toolbox-action{
+    background-color: white;
+    border-radius: 1rem;
+    border-color: black;
+    height: 3rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.color {
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 1rem;
+}
+
+.color-pink{
+    background-color: lightpink;
+    
+}
+.color-blue{
+    background-color: lightblue;
+    
+}
+.color-green{
+    background-color: lightgreen;
+    
+}
+.color-yellow{
+    background-color: yellow;
+    
+}
+
+.modal-const{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    background-color: blueviolet;
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    box-shadow: 10px 10px 15px rgb(44, 57, 61);
+    
+}
+
+.textarea-const{
+background-color: rgb(199, 243, 247);
+height: 100%;
+width: 75%;
+border: none;
+resize: none;
+outline: none;
+padding: 1rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.priority-color-const{
+    background-color: rgb(83, 82, 82);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.priority{
+height: 2rem;
+width: 4rem;
+border-radius: 2rem;
+}
+
+.main-container{
+margin-top: 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 2rem;
+}
+
+.ticket-container{
+    height: 10rem;
+    width: 12rem;
+    background-color:white;
+    box-shadow: 10px 10px 15px rgb(44, 57, 61);
+    border-color: black;
+    
+    
+}
+.ticket-color{
+    
+    /* background-color: yellow; */
+    height: 1rem;
+    width: 12rem;
+
+}
+.ticket-id{
+    height: 1rem;
+    background-color: rgb(182, 181, 180);
+}
+.text-area{
+    padding: 0.3rem;
+    height: 6rem;
+}
+.ticket-lock-cont{
+    height: 2rem;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+}
+
+.actives{
+    /* border: 10rem; */
+    border: 0.3rem solid rgb(10, 10, 10);     
+}
+
+.add-btn:hover{
+    font-size: 2rem;
+}
+
+.remove-btn:hover{
+    font-size: 2rem;
+}
+.ticket-lock-cont{
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+}
+
+
+.color:hover{
+    border: 1rem;
+    border-color: red;
+}
